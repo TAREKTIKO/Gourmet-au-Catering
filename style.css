@@ -42,6 +42,13 @@ nav .logo a:hover{
     background-color: rgb(204, 204, 204);
 }
 
+.hamburger{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+}
+
 .nav-links ul li{
     list-style: none;
     display: inline-block;
@@ -219,11 +226,98 @@ form button:hover{
 }
 
 /* Footer Section Styling */
+
 footer{
     text-align: center;
     padding: 50px;
     background-color: rgb(230, 230, 230);
     color: black;
     font-size: 15px;
+}
+
+/* Media Querie Styling */
+
+@media screen and (max-width: 768px) {
+
+/* Navigation & Burger Menu Styling */
+
+nav{
+    position: fixed;
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+.hamburger{
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    padding: 0px 40px 20px 0px;
+    position: relative;
+}
+
+.hamburger i{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    max-width: max-content;
+    height: max-content;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.hamburger i.active{
+    opacity: 1;
+    transform: rotate(180deg);
+}
+
+.nav-links{
+    position: absolute;
+    background-color: red;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+}
+
+.nav-links.active{
+    opacity: 1;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.nav-links ul li{
+    display: block;
+    padding: 15px 0px;
+}
+
+.nav-links ul li a{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+/* Header Section Styling */
+
+header .header-img img{
+    width: 100%;
+}
+
+header h1{
+display: none;
+}
+
+/* About Section Styling */
+
+.container {
+    width: 100%;
+    display: block;
+}
+
+.container .section-img img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
 
 }
