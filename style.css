@@ -245,6 +245,13 @@ nav{
     position: fixed;
     width: 100%;
     transition: 0.3s ease;
+    height: 80px;
+}
+
+nav .logo a{
+    font-size: auto;
+    padding: auto;
+    padding: 0px;
 }
 
 .hamburger{
@@ -274,7 +281,7 @@ nav{
 .nav-links{
     position: absolute;
     background-color: red;
-    top: 60px;
+    top: 80px;
     left: 0;
     width: 100%;
     opacity: 0;
