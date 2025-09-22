@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+body{
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Nav-bar Styling */
+
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 20px 20px;
+    position: sticky;
+    top: 0;
+    box-shadow: black 0px 0px 10px;
+}
+
+nav .logo a{
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+
+nav .logo a:hover{
+    background-color: rgb(204, 204, 204);
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.nav-links ul li a{
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+}
+
+.nav-links ul li a:hover{
+    background-color: rgb(204, 204, 204);
+}
+
+/* Header Section Styling */
+
+header .header-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* About Section Styling */
+
+.section{
+    margin: 100px 0px;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: rgb(204, 204, 204) 1px solid;
+    padding-bottom: 100px;
+}
+
+.container .section-img {
+    height: 100%;
+    width: 100%;
+}
+
+.container .section-img img{
+    height: 650px;
+    width: 500px;
+}
+
+.container .section-text{
+    padding: 0px 20px;
+    width: 100%;
+}
+
+.container .section-text h3{
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.container .section-text h6{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    padding: 50px 0px 20px;
+    text-align: center;
+}
+
+.container .section-text P{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+.section-text-span{
+    background-color: rgb(204, 204, 204);
+    padding: 5px;
+}
+
+.section-text .section-text-p {
+    color: rgb(163, 163, 163);
+}
+
+
+/* Our Menu Section Styling */
+
+.section-text #texth {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.section-text #textp{
+    color: rgb(163, 163, 163);
+    font-size: 15px;
+    letter-spacing: 0px;
+    padding-bottom: 20px;
+}
+
+/* Contact Section Styling */
+
+#contact-text{
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+#contact-p{
+    font-size: 12px;
+}
+
+#contact-h6{
+    text-align: left;
+    font-size: 20px;
+    padding: 0px 0px 20px;
+    color: rgb(97, 126, 140);
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input, form textarea{
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    resize: none;
+}
+
+form input:focus, form textarea:focus{
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+form button{
+    width: 150px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(242, 242, 242);
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+form button:hover{
+    background-color: rgb(204, 204, 204);
+}
+
+#contact-container{
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+/* Footer Section Styling */
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(230, 230, 230);
+    color: black;
+    font-size: 15px;
+}
