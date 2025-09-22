@@ -67,6 +67,19 @@ header .header-img {
     justify-content: center;
 }
 
+header h1{
+    position: absolute;
+    left: 9%;
+    bottom: 10%;
+    color: rgb(87, 88, 92);
+    font-size: 35px;
+    letter-spacing: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    letter-spacing: 8px;
+}
+
 /* About Section Styling */
 
 .section{
@@ -212,4 +225,5 @@ footer{
     background-color: rgb(230, 230, 230);
     color: black;
     font-size: 15px;
+
 }
