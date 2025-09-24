@@ -91,6 +91,7 @@ header h1{
 
 .section{
     margin: 100px 0px;
+    scroll-margin-top: 80px;
 }
 
 .container {
@@ -326,6 +327,7 @@ display: none;
     height: auto;
     padding-bottom: 20px;
 }
+
 
 
 }
